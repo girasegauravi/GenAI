@@ -96,7 +96,32 @@ Before you begin, ensure you have the following installed on your system:
 
 ---
 
-## **Step 5: Additional Notes**
+## **Step 5: Install Dependencies**
+
+1. Ensure the `requirements.txt` file is in your project directory.
+2. Install all the dependencies listed in `requirements.txt`:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## **Step 6: Set Up Jupyter Lab**
+
+   Jupyter lab would be already installed in your environment post the last step. 
+
+   Launch Jupyter Lab:
+
+   ```bash
+   jupyter lab
+   ```
+
+   A new tab will open in your default web browser, showing the Jupyter Lab interface. You can now start working on your notebooks.
+
+---
+
+## **Step 7: Additional Notes**
 
 * To deactivate the Python virtual environment, run:
 
